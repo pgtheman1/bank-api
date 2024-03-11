@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/hibiken/asynq"
+	db "github.com/pgtheman1/bank/db/sqlc"
+	"github.com/pgtheman1/bank/mail"
 	"github.com/rs/zerolog/log"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/mail"
 )
 
 const (
