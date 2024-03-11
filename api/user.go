@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/util"
+	db "github.com/pgtheman1/bank/db/sqlc"
+	"github.com/pgtheman1/bank/util"
 )
 
 type createUserRequest struct {
